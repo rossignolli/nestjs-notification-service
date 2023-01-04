@@ -10,5 +10,5 @@ export class CreateNotificationBody {
   content: string;
 
   @IsNotEmpty()
-  category: string;
+  category: string;  
 }
